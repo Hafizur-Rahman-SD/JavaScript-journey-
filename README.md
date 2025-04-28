@@ -6,3 +6,7 @@ My JavaScript learning journey! Topic-wise code: Variables, Data Types, Function
 - Archive problem-solving approaches
 - Create reference material for fundamentals
 - Document my learning journey
+
+Support
+If you found these codes helpful, feel free to ⭐️ star this repository!
+
