@@ -5,6 +5,6 @@ let myNumber = 25;
 
 // Add number to string (concatenation)
 let result = myString + myNumber;
-
+//ler
 console.log(result); // Output: "Hello, I am Hafizur Rahman 25"
 console.log(typeof result); // Output: "string"
