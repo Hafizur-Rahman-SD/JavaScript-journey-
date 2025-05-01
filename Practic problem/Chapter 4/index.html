@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4 - Strings Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chapter 4 - Strings Practice Solutions</h1>
+        
+        <!-- Problem 1 -->
+        <div class="problem-card">
+            <h2>Problem 1:String Length with Escape Character </h2>
+            <p>Check length of string with escape character</p>
+            <button id="problem1-btn">Run Solution</button>
+            <div class="output" id="problem1-output"></div>
+        </div>
+
+        <!-- Problem 2 -->
+        <div class="problem-card">
+            <h2>Problem 2: String Methods</h2> <!-- String Methods -->
+            <div class="input-group">
+                <label>Enter main string:</label>
+                <input type="text" id="main-string" value="Hello World! Welcome to JavaScript">
+            </div>
+            <div class="input-group">
+                <label>Enter substring to search:</label>
+                <input type="text" id="search-string" value="World">
+            </div>
+            <button id="problem2-btn">Test Methods</button>
+            <div class="output" id="problem2-output"></div>
+        </div>
+
+        <!-- Problem 3 -->
+        <div class="problem-card">
+            <h2>Problem 3: Convert to Lowercase</h2>
+            <div class="input-group">
+                <label>Enter string to convert:</label>
+                <input type="text" id="to-lower-input" value="HELLO JavaScript">
+            </div>
+            <button id="problem3-btn">Convert</button>
+            <div class="output" id="problem3-output"></div>
+        </div>
+
+        <!-- Problem 4 -->
+        <div class="problem-card">
+            <h2>Problem 4: Extract Amount</h2>
+            <div class="input-group">
+                <label>Enter string with amount:</label>
+                <input type="text" id="amount-string" value="Please give Tk 1000">
+            </div>
+            <button id="problem4-btn">Extract Amount</button>
+            <div class="output" id="problem4-output"></div>
+        </div>
+
+        <!-- Problem 5 -->
+        <div class="problem-card">
+            <h2>Problem 5: Change Character</h2>
+            <div class="input-group">
+                <label>Enter original string:</label>
+                <input type="text" id="original-string" value="Hello World">
+            </div>
+            <div class="input-group">
+                <label>Enter position to change (0-based):</label>
+                <input type="number" id="char-position" value="3" min="0">
+            </div>
+            <div class="input-group">
+                <label>Enter new character:</label>
+                <input type="text" id="new-char" value="X" maxlength="1">
+            </div>
+            <button id="problem5-btn">Change Character</button>
+            <div class="output" id="problem5-output"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
