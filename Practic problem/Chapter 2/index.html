@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Practice Set - About Conditions </title>
+</head>
+<body>
+
+    <h1>JavaScript Practice Set - Chapter 2</h1>
+    <p>To see the output click your mouse left buttion and go inspect mood and then go console part then you can see the output </p><br>
+    <p> Give the info that want in first from you </p>
+  <script>
+    // 1. Check if age is between 10 and 20
+    let age1 = parseInt(prompt("Enter your age:"));
+    if (age1 > 10 && age1 < 20) {
+      console.log("Age is between 10 and 20");
+    } else {
+      console.log("Age is NOT between 10 and 20");
+    }
+
+    // 2. Demonstrate switch case
+    let fruit = prompt("Enter a fruit name (apple/banana/mango):");
+    switch (fruit) {
+      case "apple":
+        console.log("You chose Apple");
+        break;
+      case "banana":
+        console.log("You chose Banana");
+        break;
+      case "mango":
+        console.log("You chose Mango");
+        break;
+        case "orange":
+        console.log("You chose Orange");
+        break;
+        case "grape":   
+        console.log("You chose Grape");
+        break;
+        case "kiwi":
+        console.log("You chose Kiwi");
+        break;
+      default:
+        console.log("Fruit not available");
+    }
+
+    // 3. Check divisibility by 2 and 3
+    let num1 = parseInt(prompt("Enter a number to check divisibility by 2 and 3:"));
+    if (num1 % 2 === 0 && num1 % 3 === 0) {
+      console.log("The number is divisible by both 2 and 3");
+    } else {
+      console.log("The number is NOT divisible by both 2 and 3");
+    }
+
+    // 4. Check divisibility by either 2 or 3
+    let num2 = parseInt(prompt("Enter a number to check divisibility by 2 or 3:"));
+    if (num2 % 2 === 0 || num2 % 3 === 0) {
+      console.log("The number is divisible by either 2 or 3");
+    } else {
+      console.log("The number is NOT divisible by 2 or 3");
+    }
+
+    // 5. Use ternary operator to check driving age
+    let drivingAge = parseInt(prompt("Enter your age to check if you can drive:"));
+    let message = (drivingAge > 18) ? "You can Drive" : "You cannot Drive";
+    console.log(message);
+
+//6. Check if a number is even or odd
+let num3 = parseInt(prompt("Enter a number to check if it's even or odd:"));    
+if (num3 % 2 === 0) {
+  console.log("The number is even");
+} else {
+  console.log("The number is odd");
+}
+
+//7. simple a programm to check take input from user without using parseInt promt (but its use is very good. )The prompt() function always returns a string, even if the user types a number.
+
+
+let age = prompt("Enter your age:");
+if (age > 18) {
+  console.log("You can drive");
+} else {
+  console.log("You cannot drive");
+}
+
+
+
+  </script>
+</body>
+</html>
+
