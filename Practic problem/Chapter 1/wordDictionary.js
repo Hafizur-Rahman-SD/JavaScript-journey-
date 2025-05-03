@@ -15,12 +15,12 @@ const myObj = {
 };
 
 // Uncommenting the below line will cause an error
-// myObj = 123;  // ❌ Error: Assignment to constant variable
+// myObj = 123;  //  Error: Assignment to constant variable
 
 console.log("Problem 3 Output:", myObj);
 
 // Problem 4: Try to add a new key to the const object in Problem 3
-myObj.price = 150;  // ✅ Allowed
+myObj.price = 150;  // Allowed
 console.log("Problem 4 Output (after adding new key):", myObj);
 
 // Problem 5: Write a JS program to create a word-meaning dictionary of 5 words
@@ -33,3 +33,6 @@ const dictionary = {
 };
 
 console.log("Problem 5 Output (dictionary):", dictionary);
+
+
+//if you need any question please ask me. I will try to help you as much as possible.
