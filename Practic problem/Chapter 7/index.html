@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7 - DOM Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chapter 7 - Walking the DOM</h1>
+        
+        <!-- Problem 1: Navigation and color change -->
+        <div class="problem-card">
+            <h2>Problem 1: Change First List Item Color</h2>
+            <ul id="color-list">
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ul>
+            <button id="problem1-btn">Change First Item Color</button>
+            <div class="output" id="problem1-output"></div>
+        </div>
+
+        <!-- Problem 2: Table with/without tbody -->
+        <div class="problem-card">
+            <h2>Problem 2: Check Table Structure</h2>
+            <table id="my-table">
+                <tr><td>Cell 1</td><td>Cell 2</td></tr>
+                <tr><td>Cell 3</td><td>Cell 4</td></tr>
+            </table>
+            <button id="problem2-btn">Check for tbody</button>
+            <div class="output" id="problem2-output"></div>
+        </div>
+
+        <!-- Problem 3: Change child element colors -->
+        <div class="problem-card">
+            <h2>Problem 3: Change Child Element Colors</h2>
+            <div id="parent-element">
+                <span>First child</span>
+                <div>Second child</div>
+                <p>Third child</p>
+            </div>
+            <button id="problem3-btn">Change Colors</button>
+            <div class="output" id="problem3-output"></div>
+        </div>
+
+        <!-- Problem 4: Change all list items -->
+        <div class="problem-card">
+            <h2>Problem 4: Change All List Items</h2>
+            <ul class="change-all">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <ul class="change-all">
+                <li>Item A</li>
+                <li>Item B</li>
+            </ul>
+            <button id="problem4-btn">Change All LI Backgrounds</button>
+            <div class="output" id="problem4-output"></div>
+        </div>
+
+        <!-- Problem 5: DOM searching methods -->
+        <div class="problem-card">
+            <h2>Problem 5: DOM Searching Methods</h2>
+            <div id="search-demo">
+                <p class="demo">Paragraph 1</p>
+                <p class="demo">Paragraph 2</p>
+                <div class="demo">Div element</div>
+            </div>
+            <button id="problem5-btn">Test Searching Methods</button>
+            <div class="output" id="problem5-output"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
