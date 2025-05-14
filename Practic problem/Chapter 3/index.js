@@ -19,7 +19,7 @@ for (let i = 0; i < students.length; i++) { // Loop through the keys of the mark
 // Problem 2: Print Marks Using For-In Loop
 console.log("\nProblem 2: Print Marks Using For-In Loop");
 for (let student in marks) {
-    console.log(`${student}: ${marks[student]}`);
+    console.log(`${student}: ${marks[student]}`); //important line for logice write
 }
 
 // Problem 3: Try Again Until Correct Number
