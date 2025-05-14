@@ -12,7 +12,7 @@ const marks = { // Object containing student names and their marks
 // Using for loop
 const students = Object.keys(marks);
 for (let i = 0; i < students.length; i++) { // Loop through the keys of the marks object
-    console.log(`${students[i]}: ${marks[students[i]]}`); //// Print the student name and their mark using template literals
+    console.log(`${students[i]}: ${marks[students[i]]}`); //// Print the student name and their mark using template literals its important
 
 }
 
