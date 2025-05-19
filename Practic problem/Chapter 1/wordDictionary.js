@@ -1,13 +1,16 @@
 // Chapter 1 - Practice Set
 
 // Problem 1: Create a variable of type string and try to add a number to it
-let str = "Hafizur";  // String
+
+let str = "Hafizur";  // String create 
 let result = str + 15;  // String + Number becomes String
 console.log("Problem 1 Output:", result);  // Output: Hafizur15
 
 
 // Problem 2: Use typeof operator to find the datatype of the string in the last question
 console.log("Problem 2 Output (type of result):", typeof result);  // Output: string
+//Simple problem .
+
 
 // Problem 3: Create a const object in JavaScript. Can you change it to hold a number later?
 const myObj = {
