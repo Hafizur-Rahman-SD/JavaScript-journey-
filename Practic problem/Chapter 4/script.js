@@ -1,4 +1,5 @@
 // Wait for DOM to load
+
 document.addEventListener('DOMContentLoaded', function() {
     // Problem 1: String Length with Escape character 
     document.getElementById('problem1-btn').addEventListener('click', function() {
