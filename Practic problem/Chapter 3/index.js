@@ -1,12 +1,14 @@
+
+
 // Chapter 3 - Practice Set Solutions
 
 // Problem 1: Print Marks Using For Loop
 console.log("Problem 1: Print Marks Using For Loop");
 const marks = { // Object containing student names and their marks
-    hafiz: 98,
-    rahman: 70,
-    aishu: 73,
-    abdullah: 85,
+    Hafiz: 98,
+    Rahman: 70,
+    Aishu: 73,
+    Abdullah: 85,
 };
 
 // Using for loop
