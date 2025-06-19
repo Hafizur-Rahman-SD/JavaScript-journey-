@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
                       `  1. h\n  2. a\n  3. r\n  4. "`;
         document.getElementById('problem1-output').textContent = output;
     });
+    
 
     // Problem 2: String methods
     document.getElementById('problem2-btn').addEventListener('click', function() {
