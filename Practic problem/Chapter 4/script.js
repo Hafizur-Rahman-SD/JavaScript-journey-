@@ -65,6 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('problem4-output').textContent = output;
     });
 
+    
     // Problem 5: Change character
     document.getElementById('problem5-btn').addEventListener('click', function() {
         const originalStr = document.getElementById('original-string').value;
