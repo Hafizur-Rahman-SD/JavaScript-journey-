@@ -41,6 +41,7 @@ Hafizur Rahman – a frontend developer from Bangladesh.
 ✉️ Email: hafizurrahman5004@gmail.com
 
 🔗 LinkedIn
+https://www.linkedin.com/in/hafizurrahman-sd/
 
 🤝 Contribute
 Feel free to open an issue or send a pull request. Feedback is welcome!
